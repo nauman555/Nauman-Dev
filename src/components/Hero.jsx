@@ -146,7 +146,7 @@ export default function Hero() {
                         </button>
                         <div className="rounded-2xl bg-white p-3">
                           <img
-                            src="/QRcode.jpeg"
+                            src={`${import.meta.env.BASE_URL}QRcode.jpeg`}
                             alt="WeChat QR code"
                             className="h-[220px] w-[220px] sm:h-[260px] sm:w-[260px] md:h-[320px] md:w-[320px] rounded-xl object-cover"
                           />
