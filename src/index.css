@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-body text-base md:text-lg text-ink bg-paper antialiased;
+}
+
+::selection {
+  @apply bg-clay/30;
+}
+
+/* Visible keyboard focus, kept consistent across sections */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #c1834e;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
