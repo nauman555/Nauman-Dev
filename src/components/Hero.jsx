@@ -1,4 +1,5 @@
 import { useState } from "react";
+import portrait from "../assets/portrait.jpeg";
 import { profile } from "../data/content";
 
 export default function Hero() {
@@ -46,6 +47,39 @@ export default function Hero() {
                 Download CV
               </a>
             </div> */}
+
+            <div className="mb-8">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full border border-clay/40 bg-clay/10 text-clay">
+                  <svg
+                    viewBox="0 0 24 24"
+                    className="h-4 w-4 fill-current"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2.5a1 1 0 0 1 1 1V5.1a7.9 7.9 0 0 1 5.9 5.9h1.6a1 1 0 1 1 0 2h-1.6a7.9 7.9 0 0 1-5.9 5.9v1.6a1 1 0 1 1-2 0v-1.6A7.9 7.9 0 0 1 5.1 13.9H3.5a1 1 0 1 1 0-2h1.6A7.9 7.9 0 0 1 11 5.1V3.5a1 1 0 0 1 1-1Zm-1 4.3A5.2 5.2 0 0 0 6.8 12a5.2 5.2 0 0 0 4.2 5.2A5.2 5.2 0 0 0 15.2 12 5.2 5.2 0 0 0 11 6.8Zm1 2.2a3.9 3.9 0 1 1 0 7.8 3.9 3.9 0 0 1 0-7.8Z" />
+                  </svg>
+                </span>
+                <p className="text-sm font-medium uppercase tracking-[0.2em] text-cream/70">
+                  Research Interests
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-2.5">
+                {[
+                  "Artificial Intelligence",
+                  "Machine Learning",
+                  "Cyber Security",
+                  "Data Security",
+                ].map((interest) => (
+                  <span
+                    key={interest}
+                    className="inline-flex items-center rounded-full border border-cream/20 bg-cream/5 px-3 py-1.5 text-sm text-cream/90 shadow-sm"
+                  >
+                    {interest}
+                  </span>
+                ))}
+              </div>
+            </div>
 
             <div>
               <p className="text-xs text-cream/50 mb-3">Connect with me</p>
@@ -151,14 +185,13 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Portrait placeholder — swap the src below for your own photo */}
           <div className="relative flex justify-center md:justify-end">
-            <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-full border border-moss bg-moss/30 flex items-center justify-center">
-              <span className="font-display text-cream/40 text-sm text-center px-8">
-                Add your photo here
-                <br />
-                (src in Hero.jsx)
-              </span>
+            <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-full border border-moss bg-moss/30 overflow-hidden shadow-2xl shadow-black/20">
+              <img
+                src={portrait}
+                alt="Nauman Ali portrait"
+                className="h-full w-full object-cover object-center"
+              />
             </div>
           </div>
         </div>

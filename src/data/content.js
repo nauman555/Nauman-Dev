@@ -4,7 +4,7 @@ export const profile = {
   name: "Nauman Ali",
   title: "Software Engineer /  AI Automation Engineer",
   tagline:
-    "I build intelligent automation systems and secure, scalable software — bridging AI engineering with 8+ years of hands-on digital forensics and full-stack development.",
+    "I build intelligent automation systems and secure, scalable softwares, bridging AI engineering with 8+ years of hands-on digital forensics , Cyber Crime Investigation and full-stack development.",
   location: "Islamabad, Pakistan",
   email: "thisisnauman.ali@gmail.com",
   linkedin: "https://linkedin.com/in/nauman5",
@@ -27,19 +27,18 @@ export const about = {
   eyebrow: "01. About",
   heading: "Where digital investigation meets software engineering",
   body: [
-    "I've spent the last 8+ years moving between two worlds that don't usually meet: cybercrime investigation and software development. As a Digital Forensic Investigator with Pakistan's FIA Cyber Crime Wing, I handled evidence acquisition, OSINT, and forensic analysis on cases ranging from AML and cryptocurrency fraud to identity theft.",
-    "That investigative mindset now shapes how I build. I currently work as an AI Automation Engineer, designing GenAI and RAG-based workflows with tools like n8n, while staying rooted in full-stack development — Node.js, FastAPI, Laravel, and the databases that hold it all together.",
+    "I have spent more than eight years working in two different fields: cybercrime investigation and software development. As a Digital Forensic Investigator with Pakistan’s FIA Cyber Crime Wing, I collected evidence, used OSINT, and carried out forensic analysis in cases such as money laundering, cryptocurrency fraud, and identity theft.",
+    "That investigative way of thinking now guides how I build software. I currently work as an AI Automation Engineer, where I design workflows using GenAI and RAG with tools like n8n. I also work in full‑stack development, using Python, Node.js, FastAPI, Laravel, and different databases.",
   ],
   facts: [
     { label: "Name", value: "Nauman Ali" },
-    { label: "Location", value: "Islamabad, Pakistan" },
+    { label: "Location", value: "Gilgit, Pakistan" },
     { label: "Email", value: "thisisnauman.ali@gmail.com" },
-    { label: "Availability", value: "Open to remote opportunities" },
   ],
 };
 
 export const skills = {
-  eyebrow: "02. Services & Skills",
+  eyebrow: "03. Services & Skills",
   heading: "What I Do",
   items: [
     {
@@ -76,7 +75,7 @@ export const skills = {
 };
 
 export const projects = {
-  eyebrow: "03. Selected Work",
+  eyebrow: "04. Selected Work",
   heading: "Things I've Built",
   note: "Pulled from my professional experience — swap these for your own case studies and links whenever you have them.",
   items: [
@@ -108,7 +107,7 @@ export const projects = {
 };
 
 export const experience = {
-  eyebrow: "04. Experience & Education",
+  eyebrow: "02. Experience & Education",
   heading: "Experience",
   eduHeading: "Education",
   quote:
@@ -161,8 +160,8 @@ export const experience = {
 };
 
 export const contact = {
-  eyebrow: "07. Get in Touch",
+  eyebrow: "05. Get in Touch",
   heading: "Open to new opportunities",
-  body: "I'm currently looking for remote roles in AI engineering and backend development. If that's what you're hiring for, let's talk.",
+  // body: "I'm currently looking for remote roles in AI engineering and backend development. If that's what you're hiring for, let's talk.",
   cta: "Email Me",
 };
