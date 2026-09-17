@@ -2,7 +2,8 @@
 
 export const profile = {
   name: "Nauman Ali",
-  title: "Software Engineer /  AI Automation Engineer",
+  title:
+    "Software Engineer /  AI Automation Engineer / Cyber Crime Investigator",
   tagline:
     "I build intelligent automation systems and secure, scalable softwares, bridging AI engineering with 8+ years of hands-on digital forensics , Cyber Crime Investigation and full-stack development.",
   location: "Islamabad, Pakistan",
@@ -25,9 +26,8 @@ export const nav = [
 
 export const about = {
   eyebrow: "01. About",
-  heading: "Where digital investigation meets software engineering",
   body: [
-    "I have spent more than eight years working in two different fields: cybercrime investigation and software development. As a Digital Forensic Investigator with Pakistan’s FIA Cyber Crime Wing, I collected evidence, used OSINT, and carried out forensic analysis in cases such as money laundering, cryptocurrency fraud, and identity theft.",
+    "I have spent  eight years working in two different fields: cybercrime investigation and software development. As a Cyber CrimeInvestigator with Pakistan’s FIA Cyber Crime Wing, I collected evidence, used OSINT, and carried out Cyber Crime investigations in cases such as money laundering, cryptocurrency fraud, and identity theft.",
     "That investigative way of thinking now guides how I build software. I currently work as an AI Automation Engineer, where I design workflows using GenAI and RAG with tools like n8n. I also work in full‑stack development, using Python, Node.js, FastAPI, Laravel, and different databases.",
   ],
   facts: [
@@ -116,7 +116,7 @@ export const experience = {
     {
       period: "Mar 2026 — Present",
       role: "AI Engineer",
-      org: "Remote Freelance · Pakistan",
+      org: "Freelance",
       description:
         "Designing GenAI and RAG-based automation workflows for clients using n8n and vector databases.",
     },
